@@ -1,0 +1,21 @@
+# Dependências e build (são gerados dentro do container)
+node_modules
+.next
+out
+build
+lib/generated
+
+# Segredos: NUNCA vão pra imagem, passa com --env-file ou -e
+.env*
+
+# Lixo que não precisa na imagem
+pnpm-lock.yaml
+pnpm-workspace.yaml
+*.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+.git
+.vscode
+.vercel
+Dockerfile
+.dockerignore
