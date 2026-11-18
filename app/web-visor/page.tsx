@@ -1,10 +1,6 @@
-import type { Metadata } from 'next'
-import WebVisor from '@/components/web-visor'
+import { redirect } from 'next/navigation'
 
-export const metadata: Metadata = {
-  title: 'Welcome Studio — Tela da recepção',
-}
-
+// Endereço antigo da TV: manda pra "/" pra não quebrar quem já salvou o link
 export default function WebVisorPage() {
-  return <WebVisor />
+  redirect('/')
 }
