@@ -296,7 +296,6 @@ textarea {
 
 .card-kicker,
 .preview-overline,
-.preview-signoff,
 .preview-status,
 .stage-eyebrow {
   font-size: 9px;
@@ -612,8 +611,7 @@ textarea {
   text-align: center;
 }
 
-.preview-overline,
-.preview-signoff {
+.preview-overline {
   margin: 0;
   color: #7fa1bd;
   font-size: 7px;
@@ -662,11 +660,6 @@ textarea {
   letter-spacing: -0.035em;
 }
 
-.preview-signoff {
-  margin-top: 8px;
-  color: #637894;
-  font-size: 6px;
-}
 
 .preview-status {
   display: flex;
@@ -715,7 +708,9 @@ textarea {
   inset: 0;
   display: flex;
   min-height: 100svh;
-  overflow: auto;
+  /* Os brilhos (.stage-glow) passam da borda; sem isso a tela rolava pro lado e o conteúdo saía do centro */
+  overflow-x: hidden;
+  overflow-y: auto;
   flex-direction: column;
   isolation: isolate;
   padding: 0 clamp(22px, 6vw, 90px);
@@ -876,12 +871,6 @@ textarea {
   text-shadow: 0 0 50px rgba(0, 152, 216, 0.15);
 }
 
-.stage-signoff {
-  margin: 15px 0 0;
-  color: #aab8cc;
-  font-size: clamp(13px, 1.45vw, 17px);
-  letter-spacing: 0.015em;
-}
 
 @keyframes stage-arrive {
   from {
@@ -1015,10 +1004,6 @@ textarea {
 
   .stage-divider {
     margin-top: 25px;
-  }
-
-  .stage-signoff {
-    font-size: 13px;
   }
 }
 

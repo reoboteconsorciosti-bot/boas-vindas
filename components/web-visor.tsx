@@ -56,9 +56,7 @@ export default function WebVisor() {
         <div className="stage-content" key={atual.id} aria-live="polite">
           <h1 className="stage-name">{atual.nome}</h1>
           <div className="stage-divider"><span /></div>
-          <p className="stage-message">{atual.mensagem}</p>
-          <p className="stage-signoff">Seja muito bem-vindo(a)</p>
-        </div>
+          <p className="stage-message">{atual.mensagem}</p>        </div>
       ) : (
         <div className="stage-content">
           <p className="stage-eyebrow"><span /> AGUARDANDO MENSAGEM</p>

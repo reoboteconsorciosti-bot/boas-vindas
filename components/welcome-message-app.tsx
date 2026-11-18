@@ -157,9 +157,7 @@ function WelcomePreview({ message, name }: WelcomePreviewProps) {
           <p className="preview-overline">É UM PRAZER RECEBER VOCÊ</p>
           <p className="preview-name">{name.trim() || 'Nome de quem chega'}</p>
           <div className="preview-rule"><span /></div>
-          <p className="preview-message">{message.trim() || MENSAGEM_PADRAO}</p>
-          <p className="preview-signoff">SEJA MUITO BEM-VINDO(A)</p>
-        </div>
+          <p className="preview-message">{message.trim() || MENSAGEM_PADRAO}</p>        </div>
         <div className="preview-status"><span /> PRONTO PARA APRESENTAR <ChevronRight aria-hidden="true" /></div>
       </div>
       <p className="preview-caption"><CircleHelp aria-hidden="true" /> A apresentação ocupa a tela inteira ao ser exibida.</p>
@@ -190,9 +188,7 @@ function FullscreenWelcome({ content, onBack }: FullscreenWelcomeProps) {
       <div className="stage-content" key={`${content.name}-${content.message}`}>
         <h1 className="stage-name">{content.name}</h1>
         <div className="stage-divider"><span /></div>
-        <p className="stage-message">{content.message}</p>
-        <p className="stage-signoff">Seja muito bem-vindo(a)</p>
-      </div>
+        <p className="stage-message">{content.message}</p>      </div>
 
     </main>
   )
