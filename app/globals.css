@@ -233,7 +233,7 @@ textarea {
 
 .dashboard-container {
   display: flex;
-  width: min(100% - 112px, 1240px);
+  width: min(100% - 112px, 1440px);
   min-height: 100svh;
   margin: 0 auto;
   flex-direction: column;
@@ -307,7 +307,7 @@ textarea {
   display: grid;
   grid-template-columns: minmax(0, 0.93fr) minmax(0, 1.07fr);
   align-items: stretch;
-  gap: 25px;
+  gap: 32px;
   padding: 36px 0 35px;
 }
 
@@ -319,7 +319,7 @@ textarea {
 }
 
 .editor-card {
-  padding: 25px 26px 20px;
+  padding: 32px 34px 28px;
 }
 
 .card-heading {
@@ -332,8 +332,8 @@ textarea {
 
 .card-heading-icon {
   display: grid;
-  width: 39px;
-  height: 39px;
+  width: 48px;
+  height: 48px;
   flex: 0 0 auto;
   place-items: center;
   border: 1px solid rgba(76, 226, 250, 0.2);
@@ -343,66 +343,66 @@ textarea {
 }
 
 .card-heading-icon svg {
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
 }
 
 .card-kicker {
   margin: 0 0 6px;
   color: #4ce2fa;
-  font-size: 8px;
+  font-size: 11px;
 }
 
 .card-heading h2,
 .preview-heading h2 {
   margin: 0;
   color: #edf3ff;
-  font-size: 15px;
+  font-size: 21px;
   font-weight: 550;
   letter-spacing: -0.025em;
 }
 
 .step-indicator {
   display: grid;
-  width: 28px;
-  height: 28px;
+  width: 36px;
+  height: 36px;
   margin-left: auto;
   place-items: center;
   border: 1px solid rgba(167, 195, 231, 0.13);
   border-radius: 9px;
   color: #71829f;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 700;
 }
 
 .welcome-form {
   display: flex;
   flex-direction: column;
-  gap: 19px;
-  padding-top: 21px;
+  gap: 24px;
+  padding-top: 26px;
 }
 
 .form-field {
   display: flex;
   min-width: 0;
   flex-direction: column;
-  gap: 9px;
+  gap: 11px;
 }
 
 .field-label {
   color: #d9e2f1;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 600;
 }
 
 .field-control {
   display: flex;
-  min-height: 48px;
+  min-height: 60px;
   align-items: center;
-  gap: 11px;
-  padding: 0 14px;
+  gap: 14px;
+  padding: 0 18px;
   border: 1px solid rgba(156, 180, 212, 0.19);
-  border-radius: 10px;
+  border-radius: 12px;
   background: rgba(7, 17, 34, 0.52);
   transition: border-color 160ms ease, box-shadow 160ms ease, background 160ms ease;
 }
@@ -414,8 +414,8 @@ textarea {
 }
 
 .field-control>svg {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   flex: 0 0 auto;
   color: #6f89a9;
   stroke-width: 1.7;
@@ -428,7 +428,7 @@ textarea {
   outline: 0;
   background: transparent;
   color: #f4f8ff;
-  font-size: 12px;
+  font-size: 17px;
   line-height: 1.6;
 }
 
@@ -439,9 +439,9 @@ textarea {
 }
 
 .field-control-textarea {
-  min-height: 79px;
+  min-height: 104px;
   align-items: flex-start;
-  padding-top: 13px;
+  padding-top: 17px;
 }
 
 .field-control-textarea>svg {
@@ -449,7 +449,7 @@ textarea {
 }
 
 .field-control textarea {
-  min-height: 50px;
+  min-height: 66px;
   resize: vertical;
 }
 
@@ -458,23 +458,23 @@ textarea {
   justify-content: space-between;
   gap: 12px;
   color: #71819a;
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .primary-action {
   display: flex;
-  min-height: 49px;
+  min-height: 62px;
   align-items: center;
   justify-content: space-between;
   gap: 14px;
   margin-top: 1px;
-  padding: 6px 7px 6px 18px;
+  padding: 8px 9px 8px 22px;
   border: 1px solid rgba(111, 230, 250, 0.45);
-  border-radius: 11px;
+  border-radius: 13px;
   background: linear-gradient(100deg, #087eb8, #0098d8 58%, #16acd7);
   color: #fff;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 17px;
   font-weight: 700;
   box-shadow: 0 8px 23px rgba(0, 152, 216, 0.19), inset 0 1px rgba(255, 255, 255, 0.16);
   transition: transform 160ms ease, box-shadow 160ms ease, opacity 160ms ease;
@@ -499,8 +499,8 @@ textarea {
 
 .action-icon {
   display: grid;
-  width: 35px;
-  height: 35px;
+  width: 44px;
+  height: 44px;
   place-items: center;
   border: 1px solid rgba(255, 255, 255, 0.19);
   border-radius: 8px;
@@ -508,8 +508,8 @@ textarea {
 }
 
 .action-icon svg {
-  width: 17px;
-  height: 17px;
+  width: 21px;
+  height: 21px;
 }
 
 .form-footnote {
@@ -519,12 +519,12 @@ textarea {
   gap: 7px;
   margin: -7px 0 0;
   color: #7889a4;
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .form-footnote svg {
-  width: 12px;
-  height: 12px;
+  width: 15px;
+  height: 15px;
   color: #4ce2fa;
 }
 
@@ -549,7 +549,7 @@ textarea {
 
 .presentation-preview {
   display: flex;
-  min-height: 343px;
+  min-height: 440px;
   flex: 1;
   flex-direction: column;
   overflow: hidden;
@@ -561,7 +561,7 @@ textarea {
 
 .preview-toolbar {
   display: flex;
-  height: 42px;
+  height: 52px;
   flex: 0 0 auto;
   align-items: center;
   justify-content: space-between;
@@ -574,15 +574,15 @@ textarea {
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.13em;
 }
 
 .preview-toolbar>span svg,
 .preview-toolbar>svg {
-  width: 13px;
-  height: 13px;
+  width: 16px;
+  height: 16px;
   color: #8294ad;
 }
 
@@ -592,15 +592,15 @@ textarea {
 }
 
 .window-dots i {
-  width: 5px;
-  height: 5px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   background: #425571;
 }
 
 .preview-content {
   display: flex;
-  min-height: 259px;
+  min-height: 340px;
   flex: 1;
   flex-direction: column;
   align-items: center;
@@ -614,7 +614,7 @@ textarea {
 .preview-overline {
   margin: 0;
   color: #7fa1bd;
-  font-size: 7px;
+  font-size: 10px;
   letter-spacing: 0.21em;
 }
 
@@ -623,7 +623,7 @@ textarea {
   margin: 0;
   overflow-wrap: anywhere;
   color: #eff8ff;
-  font-size: clamp(22px, 2.1vw, 31px);
+  font-size: clamp(26px, 2.6vw, 40px);
   font-weight: 500;
   letter-spacing: -0.045em;
   line-height: 1.2;
@@ -655,7 +655,7 @@ textarea {
   margin: 10px 0 0;
   overflow-wrap: anywhere;
   color: #4ce2fa;
-  font-size: clamp(16px, 1.8vw, 22px);
+  font-size: clamp(22px, 2.4vw, 34px);
   font-weight: 500;
   letter-spacing: -0.035em;
 }
@@ -663,13 +663,13 @@ textarea {
 
 .preview-status {
   display: flex;
-  min-height: 38px;
+  min-height: 48px;
   align-items: center;
   gap: 8px;
   padding: 0 14px;
   border-top: 1px solid rgba(145, 181, 218, 0.11);
   color: #7890a8;
-  font-size: 7px;
+  font-size: 10px;
   letter-spacing: 0.16em;
 }
 
@@ -693,12 +693,12 @@ textarea {
   gap: 7px;
   margin: 12px 0 0;
   color: #74849d;
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .preview-caption svg {
-  width: 13px;
-  height: 13px;
+  width: 16px;
+  height: 16px;
   color: #7ca0ba;
 }
 
